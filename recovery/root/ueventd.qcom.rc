@@ -276,7 +276,8 @@
 /dev/block/platform/soc/7464900.sdhci/by-name/frp       0600   system     system
 /dev/block/platform/soc/624000.ufshc/by-name/frp        0600   system     system
 /dev/block/platform/soc/1da4000.ufshc/by-name/frp       0600   system     system
-/dev/block/bootdevice/by-name/frp 0600 system system
+/dev/block/bootdevice/by-name/frp                       0600   system     system
+/dev/block/bootdevice/by-name/config                    0660   system     system
 
 # I2C
 /dev/i2c-*                0660   system     system
@@ -332,6 +333,8 @@
 
 # Laser device
 /dev/laser                0660   system     camera
+
+
 
 # haptic
 /dev/drv2605              0660   system     system
