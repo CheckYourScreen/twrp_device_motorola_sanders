@@ -73,3 +73,4 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
+TARGET_CRYPTFS_HW_PATH := $(LOCAL_PATH)/cryptfs_hw
