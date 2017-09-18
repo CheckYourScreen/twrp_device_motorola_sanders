@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), potter)
+ifeq ($(TARGET_DEVICE), sanders)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

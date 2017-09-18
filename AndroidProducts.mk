@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_potter.mk
+	$(LOCAL_DIR)/omni_sanders.mk
