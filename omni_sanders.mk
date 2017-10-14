@@ -37,6 +37,12 @@ PRODUCT_COPY_FILES += \
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sanders
 PRODUCT_NAME := omni_sanders
-PRODUCT_BRAND := Motorola
-PRODUCT_MODEL := G5S plus
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_BRAND := motorola
+PRODUCT_MODEL := Moto G (5S) Plus
+PRODUCT_MANUFACTURER := motorola
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME=sanders_retail \
+	BUILD_THUMBPRINT=7.1.1/NPS26.116-26/30:user/release-keys \
+	BUILD_FINGERPRINT=motorola/sanders/sanders:7.1.1/NPS26.116-26/30:user/release-keys \
+	PRIVATE_BUILD_DESC="sanders-user 7.1.1 NPS26.116-26 30 release-keys"
