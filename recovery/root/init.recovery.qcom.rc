@@ -1,8 +1,10 @@
 on fs
-    chmod 0660 /dev/qseecom  
+    chmod 0777 /dev/qseecom
     chown system drmrpc /dev/qseecom
     chmod 0664 /dev/ion
     chown system system /dev/ion
+    install_keyring
+    setprop ro.hardware.keystore msm8953
 
 on property:ro.crypto.state=encrypted
     start sbinqseecomd
