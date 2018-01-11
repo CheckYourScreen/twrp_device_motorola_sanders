@@ -43,6 +43,6 @@ PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=sanders_retail \
-	BUILD_THUMBPRINT=7.1.1/NPS26.116-26/30:user/release-keys \
-	BUILD_FINGERPRINT=motorola/sanders/sanders:7.1.1/NPS26.116-26/30:user/release-keys \
-	PRIVATE_BUILD_DESC="sanders-user 7.1.1 NPS26.116-26 30 release-keys"
+	BUILD_THUMBPRINT=7.1.1/NPS26.116-61/74:user/release-keys \
+	BUILD_FINGERPRINT=motorola/sanders/sanders:7.1.1/NPS26.116-61/74:user/release-keys \
+	PRIVATE_BUILD_DESC="sanders-user 7.1.1 NPS26.116-61 74 release-keys"
