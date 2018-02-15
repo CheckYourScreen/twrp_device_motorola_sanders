@@ -68,6 +68,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_FSTAB := device/motorola/sanders/twrp.fstab
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_IGNORE_MISC_WIPE_DATA := true
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
