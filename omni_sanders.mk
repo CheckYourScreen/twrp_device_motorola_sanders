@@ -15,7 +15,7 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
@@ -41,8 +41,9 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G (5S) Plus
 PRODUCT_MANUFACTURER := motorola
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRODUCT_NAME=sanders_retail \
-	BUILD_THUMBPRINT=7.1.1/NPSS26.116-61-5/12:user/release-keys \
-	BUILD_FINGERPRINT=motorola/sanders/sanders:7.1.1/NPSS26.116-61-5/12:user/release-keys \
-	PRIVATE_BUILD_DESC="sanders-user 7.1.1 NPSS26.116-61-5 12 release-keys"
+
+# PRODUCT_BUILD_PROP_OVERRIDES += \
+#	PRODUCT_NAME=sanders_retail \
+#	BUILD_THUMBPRINT=7.1.1/NPSS26.116-61-5/12:user/release-keys \
+#	BUILD_FINGERPRINT=motorola/sanders/sanders:7.1.1/NPSS26.116-61-5/12:user/release-keys \
+#	PRIVATE_BUILD_DESC="sanders-user 7.1.1 NPSS26.116-61-5 12 release-keys"
